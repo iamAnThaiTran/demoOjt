@@ -10,11 +10,9 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Outlet />
-      </Layout>
-    </Router>
+    <Layout>
+      <Outlet />
+    </Layout>
   );
 }
 
